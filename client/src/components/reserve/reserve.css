@@ -1,0 +1,86 @@
+.reserve{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0,0.418);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rContainer{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.rClose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.rItem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.rInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rTitle{
+    font-weight: 500;
+}
+
+.rDesc{
+    font-weight: 300;
+}
+
+.rMax{
+    font-size: 12px;
+}
+
+.rPrice{
+    font-weight: 500;
+}
+
+.rSelectedRooms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+    color: gray;
+}
+
+.rButton{
+    
+  top: 10px;
+  right: 0;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rCheckbox[disabled]{
+    width: 15px; /*Desired width*/
+  height: 15px; /*Desired height*/
+}
+
+.rCheckbox{
+    width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+  cursor: pointer;
+ 
+}
